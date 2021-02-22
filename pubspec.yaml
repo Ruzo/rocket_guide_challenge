@@ -10,14 +10,20 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  # Allows us to easily use custom fonts from Google Fonts.
-  google_fonts: ^1.1.2
-  # Used for state management.
-  provider: ^4.3.3
+  equatable: ^1.2.6
+  flutter_riverpod: ^0.13.0-nullsafety.3
+  freezed_annotation: ^0.13.0-nullsafety.0
+  google_fonts: ^2.0.0-nullsafety.0
+  http: ^0.13.0
+  json_annotation: ^4.0.0
+  url_launcher: ^5.7.10
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
+  build_runner: ^1.11.1
+  freezed: ^0.12.7
+  json_serializable: ^4.0.0
 
 flutter:
   # The following line ensures that the Material Icons font is
